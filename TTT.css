@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 20px;
+  border: none;
+  font-size: 60px;
+  background-color: white;
+  color: black;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+}
+#message {
+  font-size: 45px;
+  color: yellow;
+}
+#icon {
+  width: 60px;
+  cursor: pointer;
+  position: fixed;
+  right: 90px;
+  top: 8px;
+}
+h1 {
+  font-size: 60px;
+  color: var(--secondary-color);
+}
+:root {
+  --primary-color: rgb(175, 179, 149);
+  --secondary-color: black;
+}
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: white;
+}
+@media (max-width: 768px) {
+  .game {
+    height: 50vh;
+    width: 50vh;
+    gap: 6px;
+  }
+  .box {
+    height: 20vw;
+    width: 20vw;
+    font-size: 45px;
+  }
+  button {
+    font-size: 20px;
+  }
+  #message {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  #icon {
+    right: 50px;
+    width: 50px;
+  }
+}
+
+/* For mobile devices (max width: 480px) */
+@media (max-width: 480px) {
+  .game {
+    height: 40vh;
+    width: 40vh;
+    gap: 4px;
+  }
+  .box {
+    height: 22vw;
+    width: 22vw;
+    font-size: 30px;
+  }
+  button {
+    font-size: 18px;
+    padding: 3px;
+  }
+  #message {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #icon {
+    right: 10px;
+    width: 40px;
+  }
+  #reset {
+    font-size: 20px;
+  }
+}
