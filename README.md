@@ -17,3 +17,8 @@ This project is a simple implementation of the classic Tic Tac Toe game using HT
 - **HTML** - Structure of the game.
 - **CSS** - Styling and layout.
 - **JavaScript** - Game logic and interactivity.
+
+## Live Demo
+
+You can try out the live app at:  
+[https://tic-tac-toe-69420.netlify.app/](https://tic-tac-toe-69420.netlify.app/)
